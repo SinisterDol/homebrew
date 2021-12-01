@@ -1,0 +1,1225 @@
+﻿{
+	"siteVersion": "1.142.0",
+	"_meta": {
+		"sources": [{
+			"json": "IK:GT",
+			"abbreviation": "IKGT",
+			"full": "Iron Kingdoms: GM's Toolkit",
+			"url": "",
+			"authors": [
+				"Privateer Press"
+			],
+			"convertedBy": [
+				"Philip Riddleham"
+			],
+			"color": "b837bf",
+			"targetSchema": "1.2.0",
+			"version": "0.0.1"
+		}],
+		"dateAdded": 1638356115
+	},
+	"class": [],
+	"subclass": [],
+	"classFeature": [],
+	"subclassFeature": [],
+	"spell": [],
+	"spellFluff": [],
+	"monster": [],
+	"legendaryGroup": [],
+	"monsterFluff": [],
+	"background": [],
+	"feat": [],
+	"optionalfeature": [],
+	"race": [],
+	"raceFluff": [],
+	"subrace": [],
+	"deity": [],
+	"item": [{
+			"name": "Article 1185",
+			"source": "IK:GT",
+			"page": "53",
+			"baseItem": "Hand Cannon|IK:R",
+			"type": "R",
+			"weaponCategory": "martial",
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmgType": "P",
+			"magazine": 1,
+			"property": [
+				"Firearm",
+				"H",
+				"Magazine",
+				"HRounds"
+			],
+			"range": "80/240",
+			"firearm": true,
+			"weapon": true,
+			"rarity": "artifact",
+			"ammoType": "iron kingdom bullet",
+			"entries": [
+				"{@color {@b First Appearance: No Quarter #47, \"Foundry, Forge & Crucible: In Rare Form\"}|CC9944}",
+				"During the last years of the Rebellion, the Orgoth devised their own crude firearms. The most terrible among them were wrought in unnatural fires stoked by the fell magic of the Orgoth warwitches. These weapons were said to claim not only the body, but also the soul of those they felled.",
+				"One such weapon was discovered by the Khadoran Army as it consolidated its control of Llael in 605 AR. The Greylords immediately assumed control of the site, an Orgoth vault that had been sealed since the Rebellion, and called for experts who arrived from Khardov soon after. They found several Orgoth artifacts inside the vault, including a unique handheld cannon that would come to be known as Article 1185, the catalog number they assigned to the weapon.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with the Spellcasting class feature or the Innate Spellcasting special trait with this weapon, eldritch green flames erupt from the point of impact and deal an extra 2d6 necrotic damage to the target.",
+				"This weapon requires specially forged iron shot. Casting shot for the weapon requires 1 gp of raw material and ritual components.",
+				{
+					"type": "entries",
+					"name": "Hex Hunter",
+					"entries": [
+						"While you hold this weapon. you are aware of the presence of creatures within 60 feet of you that can cast spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Instrument of Pain",
+					"entries": [
+						"The fell magic of this weapon makes it dangerous to wield. When you roll a 1 on an attack roll made with this weapon, you take 2d6 necrotic damage; in addition, your hit point maximum is reduced by the amount of damage you take. This reduction lasts until it is reversed by the lesser restoration spell or similar magic."
+					]
+				}
+			],
+			"uniqueId": "d48cf288bcbd4092dd863c02e353ba40"
+		},
+		{
+			"name": "Banner of the Precursors",
+			"source": "IK:GT",
+			"page": "54",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": "by a Morrowan",
+			"entries": [
+				"{@color {@b First Appearance: WARMACHINE: Legends}|CC9944}",
+				"The banners of the Precursor Knights are blessed and infused with the collective prayers of the gathered Precursors. The elevated and gleaming Radiance of Morrow that adorns each banner pains the walking dead and saps away their strength.",
+				"If you use an action to recite a prayer to Morrow while holding the banner, undead creatures within 30 feet of you must succeed on a DC 15 Wisdom saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once this item has been used, it can’t be used again until the next dawn."
+			],
+			"uniqueId": "8ea9db52a1a75fa9683c7714206dc186"
+		},
+		{
+			"name": "Cheater's Deck",
+			"source": "IK:GT",
+			"page": "54",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"{@color {@b First Appearance: The Witchfire Trilogy, Book 3: The Legion of Lost Souls}|CC9944}",
+				"This deck of cards, created by Thamarite priests of Scion Bolis, ensures its owner wins nearly every game played with it. This may seem great at first, but owners quickly discover two problems with the deck. The first is the ease of getting too lucky and drawing the wrong kind of attention; the second is the fickleness of the deck, which is apt to reverse itself after a hot winning streak in order to make its owner lose badly.",
+				"When you make a Dexterity (Sleight of Hand), Wisdom (Insight), Charisma (Deception), or Charisma (Intimidation) check while gambling, you can use this item to give yourself advantage on the roll, but if you roll a 20 on either die, you have disadvantage on all skill checks related to gambling for the next 24 hours. (You must decide whether to use this item before you roll.)"
+			],
+			"uniqueId": "6fc5a6d8310a078cb8feb80a2a5ed9e9"
+		},
+		{
+			"name": "Darkrazer",
+			"source": "IK:GT",
+			"page": "54",
+			"baseItem": "Longsword|phb",
+			"rarity": "very rare",
+			"type": "M",
+			"weapon": true,
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: The Witchfire Trilogy, Book 3: The Legion of Lost Souls}|CC9944}",
+				"This weapon once had a noteworthy history among the coastal protectors of Ord. A wizard employed by the church enchanted the sword to be used against Cryxian raiders.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, when you hit an undead with this weapon, the undead takes an extra 3d6 slashing damage."
+			],
+			"uniqueId": "3150cd47f421f4d7271a546aff74f5f8"
+		},
+		{
+			"name": "Hand of Tadhg",
+			"source": "IK:GT",
+			"page": "54",
+			"rarity": "relic",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: Monsternomicon Vol. 1}|CC9944}",
+				"This desiccated hand is an ancient Iosan artifact. It was once attached to an eldritch named Tadhg, rumored by many to have been the first such creature. Tadhg was slain by an elven hero of old, and the eldritch’s hand was severed during the battle and cast aside. An unknown magician secreted the severed member away and fashioned it into a powerful artifact.",
+				"While you are attuned to this item, you have resistance to necrotic damage and are immune to any eldritch’s Aura of Desecration special trait. In addition, all sythyss have disadvantage on attacks rolls against you."
+			],
+			"uniqueId": "7b21b3194eb203c60e9f80cbad09b25a"
+		},
+		{
+			"name": "Hex Razor",
+			"source": "IK:GT",
+			"page": "54",
+			"baseItem": "Short Sword|phb",
+			"rarity": "uncommon",
+			"type": "M",
+			"weapon": true,
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: Forces of HORDES: Legion of Everblight}|CC9944}",
+				"Salvaged from abandoned tunnels beneath the Thornwood, the ancient weapons known as hex razors were once used by the warlords of Morrdh. It is said that the touch of one of these weapons is like the touch of death itself.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, when you damage a living humanoid creature with this weapon, the target must succeed on a DC 14 Constitution saving throw or be unable to heal or be healed until the end of your next turn."
+			],
+			"uniqueId": "f699b7c4ab56202027d9b6b641a5aed9"
+		},
+		{
+			"name": "Imprecator",
+			"source": "IK:GT",
+			"page": "54-55",
+			"baseItem": "Pistol|IK:R",
+			"rarity": "unique",
+			"type": "R",
+			"weaponCategory": "simple",
+			"weight": 4,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "40/120",
+			"magazine": 1,
+			"property": [
+				"Firearm",
+				"L",
+				"Magazine",
+				"LRounds"
+			],
+			"firearm": true,
+			"weapon": true,
+			"entries": [
+				"{@color {@b First Appearance: No Quarter #47: \"Foundry, Forge & Crucible: In Rare Form\"}|CC9944}",
+				"The Imprecator is a foul product of the Thamarite pistoleer Errigan, who once prowled the streets of Corvis in the late 400s AR. The pistol is rough and tarnished, its metal surfaces covered with pitting and stained a greasy greyish color. Its cracked grips are roughly carved from worm-chewed wood adorned by weathered Telgesh runes that are illegible yet still manage to suggest the profane rituals of the weapon’s creation.",
+				"Although Errigan created this fell weapon to exact final vengeance upon his enemies, he ironically became its last victim after he was cornered by the Corvis City Watch. Refusing to be taken alive, he turned the pistol on himself, and his ghost is now inextricably bound to the weapon. The pistol was stored in one of the watch’s secure houses, but it vanished mere days later.",
+				"You gain a +1 bonus to attack and damage rolls you make with this magic weapon. In addition, when you hit a target with it, the target takes an extra 1d6 necrotic damage.",
+				{
+					"type": "entries",
+					"name": "Dead Shot",
+					"entries": [
+						"As a bonus action, you can mark a target whose name you know by whispering the name to the pistol. While the target is marked, you can reroll the first attack roll you make each turn against it. The mark lasts for 1 minute unless your target drops to 0 hit points or you end the mark voluntarily as a bonus action. Once you use this weapon to mark a target, you can’t do so again until the next sundown."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "The Ghost of Errigan",
+					"entries": [
+						"When you roll a 1 on an attack roll made with this weapon against a marked creature, Errigan’s ghost is temporarily freed from the weapon. The ghost appears within 5 feet of the weapon, is hostile to any living creature it can see, and attempts to possess the closest humanoid it can see. While the ghost is free of the weapon, the weapon loses the Dead Shot magical property. The ghost returns to the weapon after 1 minute or if it drops to 0 hit points."
+					]
+				}
+			],
+			"uniqueId": "03b6e2ee9c2bd2057b91f0e14e7728d8"
+		},
+		{
+			"name": "Lady Luck",
+			"source": "IK:GT",
+			"page": "55",
+			"baseItem": "Pistol|IK:R",
+			"rarity": "uncommon",
+			"type": "R",
+			"weaponCategory": "simple",
+			"weight": 4,
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"range": "40/120",
+			"magazine": 1,
+			"property": [
+				"Firearm",
+				"L",
+				"Magazine",
+				"LRounds"
+			],
+			"firearm": true,
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: The Witchfire Trilogy, Book 3: The Legion of Lost Souls}|CC9944}",
+				"Lady Luck is an infamous weapon in both the underworld and collector’s circles. It was lost for some time in the Undercity of Corvis, where it was discovered by the deranged hermit Renfrow. The pistol is said to have been merged with the spirit of a duelist who could outduel a pistol wraith.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, you deal an additional 1d8 piercing damage if you hit a creature that has not yet taken an action this turn. If two or more dice in the damage roll match, the target has disadvantage on attack rolls against you until the end of your next turn."
+			],
+			"uniqueId": "8f77cfa3f34a19ba2e31692d2e43c5c5"
+		},
+		{
+			"name": "Lens of Tarvodh",
+			"source": "IK:GT",
+			"page": "55",
+			"rarity": "artifact",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: WARMACHINE: Legends}|CC9944}",
+				"This arcane Orgoth relic was famously discovered and wielded by Koldun Kommander Alexandra Zerkova. It looks like a milky-white glass eye.",
+				"To attune to this item, you must first gouge out your own eye and press the artifact into the empty socket. The eye grafts into the socket but remains a dead, white orb. While you are attuned to the lens, you gain the following benefits:",
+				"You have truesight.",
+				"You have advantage on Wisdom (Perception) checks that rely on sight.",
+				"When you cast a spell that has a range of 5 feet or more, you can use a bonus action to double the range of the spell. The lens can’t be used this way again until the next midnight.",
+				"When you cast a spell that has a range of touch, you can use a bonus action to make the range of the spell 30 feet instead. The lens can’t be used this way again until the next midnight."
+			],
+			"uniqueId": "587f271fead0b8fad458128b0e0dd0b4"
+		},
+		{
+			"name": "Oblivion",
+			"source": "IK:GT",
+			"page": "55",
+			"baseItem": "Flail|phb",
+			"rarity": "rare",
+			"type": "M",
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: WARMACHINE: Apotheosis}|CC9944}",
+				"Once carried in battle by the legendary High Allegiant Amon Ad-Raza, the magical flail Oblivion is a relic of the Order of the Fist. Although the high allegiant’s fate remains unknown, his weapon continues to strike down Menoth’s foes across western Immoren, and new Oblivion-flails have begun to appear in the hands of monks of the Order.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, when you score a critical hit with this weapon, the target takes an extra 3d6 bludgeoning damage and must succeed on a DC 15 Strength saving throw or be knocked prone."
+			],
+			"uniqueId": "e653d20836b0f0b7ed5cbafc0ccfc586"
+		},
+		{
+			"name": "Ratsmasher",
+			"source": "IK:GT",
+			"page": "55-56",
+			"baseItem": "warhammer|phb",
+			"rarity": "unique",
+			"type": "M",
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: The Witchfire Trilogy, Book 3: The Legion of Lost Souls}|CC9944}",
+				"This weapon was once wielded by Clan Lord Jurek of Clan Buldar, a minor clan that suffered a decades-long devil rat infestation, which prompted the forging of this mighty hammer. After the weapon was used to eradicate all the rats, it was displayed in the high halls of Clan Buldar before ultimately being awarded to Onar Delver, a Rhulic adventurer. The weapon’s original name was lost to history, but Delver was eager to give it a new, straightforward moniker.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, a swarm loses its damage resistance against attacks made with this weapon.",
+				{
+					"type": "entries",
+					"name": "Ring the Stones",
+					"entries": [
+						"While you are attuned to this weapon, you can slam it into the ground as an action to produce a shockwave of thunderous force. Each creature within 10 feet of you must succeed on a DC 16 Constitution saving throw or take 3d6 thunder damage. Swarms of Tiny creatures have disadvantage on this saving throw. After you use this property, you can’t use it again until the next dawn."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"",
+					{
+						"type": "quote",
+						"entries": [
+							"Twas good fer squashin’ them damn devil rats what plagued our mighty halls!"
+						],
+						"by": "Onar Delver, regarding his hammer, Ratsmasher"
+					}
+				]
+			},
+			"uniqueId": "1fc07c738806ad4a494715eafcf88705"
+		},
+		{
+			"name": "Renfrow's Holy Symbol",
+			"source": "IK:GT",
+			"page": "56",
+			"baseItem": "spellcasting focus|phb",
+			"rarity": "unique",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: The Witchfire Trilogy, Book 3: The Legion of Lost Souls}|CC9944}",
+				"This item once belonged to Father Cappus, a priest in Corvis who was murdered by the prelate Tommasen. Cappus became a hungry ghost that haunted the Undercity and fed on the spiritual energy of his victims. The holy symbol Cappus wore in life was tarnished black by his deeds in undeath and twisted with the curse of Scion Aidan, the Thamarite patron of grave robbers and treasure seekers.",
+				"If you are a spellcaster, you can use this item as a spellcasting focus for your spells. In addition, if you are holding this item when you take psychic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed, and becoming attuned to it curses you until you are targeted by the remove curse spell or similar magic. As long as you remain cursed, you cannot get rid of the holy symbol, which will reappear around your neck at the stroke of midnight if it is not in your possession.",
+						"If you complete a long rest while attuned to this item, you must make a DC 17 Wisdom saving throw upon awakening. On a failed save, you must steal items worth a total of 5d10 gp before midnight; if you do not do so, you will not gain any benefits of sleep during your next long rest and will suffer one level of exhaustion after you finish the rest."
+					]
+				}
+			],
+			"uniqueId": "ccf684d5e1b194837fa8a72677ea8a1b"
+		},
+		{
+			"name": "Rest's Betrayer'",
+			"source": "IK:GT",
+			"page": "56",
+			"baseItem": "dagger|phb",
+			"rarity": "uncommon",
+			"type": "M",
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: Iron Kingdoms Character Guide}|CC9944}",
+				"These jagged daggers are replicas made by Thamarite cultists to emulate the weapon of the Dark Twin herself.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, any hit you score with this weapon against a surprised creature is a critical hit. While attuned to this weapon, you can use an action to cast darkness. This special action can’t be used again until the next midnight."
+			],
+			"uniqueId": "ac80246ba210bcb57c3e54b29b774b42"
+		},
+		{
+			"name": "Toothless Roger",
+			"source": "IK:GT",
+			"page": "56",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: No Quarter #12, \"Foundry, Forge & Crucible\"}|CC9944}",
+				"This tattered cloak is made from the flag of the pirate ship Black Iron. It is emblazoned with a traditional skull and bones motif, although the skull lacks teeth. While wearing it, you gain the following benefits:",
+				"You have advantage on Dexterity (Stealth) checks and Charisma (Intimidation) checks.",
+				"As an action, you can cast fog cloud as a 5th-level spell. Once used, the fog cloud property can’t be used again until the next dawn."
+			],
+			"uniqueId": "cfc8c5c12f8c77de6f292a6f16d8fcf1"
+		},
+		{
+			"name": "Torch of Lord Khazarak",
+			"source": "IK:GT",
+			"page": "56",
+			"rarity": "relic",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: WARMACHINE: Legends}|CC9944}",
+				"This holy Menite relic was once carried by the legendary horselord Khazarak and was interred with him when he died. The eldritch Goreshade used the relic to free the elven god Nyssor from his icy imprisonment. After Goreshade discarded the relic, it was claimed by the Khadoran warcaster Aleksandra Zerkova and stored in the vaults of the Greylords Covenant. Goreshade later attempted to reclaim the relic but was stymied by Zerkova’s actions. Profane curses on the relic prevented anyone but Goreshade from wielding its power, but the curses’ effect has faded in recent years, perhaps due to the eldritch’s current state.",
+				"While you are holding the torch, you can use an action to speak its command word and cause it to burst into flame. While it is burning, the torch sheds bright light in a 20-foot radius and dim light for an additional 20 feet, and you gain resistance to cold damage. Additionally, within the radius of the torch’s light, all ice, magical or otherwise, melts.",
+				"While the torch is burning, you can use an action to cast the flame strike spell (save DC 18). Creatures with resistance or immunity to cold damage have disadvantage on the saving throw against this spell. Once used in this way, the torch is extinguished and cannot be relit until the next dawn. The torch remains lit until you use your action to extinguish it."
+			],
+			"uniqueId": "0e96c7ad2f8670ea4369fbb389c365a3"
+		},
+		{
+			"name": "Tremulus' Marionette",
+			"source": "IK:GT",
+			"page": "57",
+			"rarity": "very rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: WARMACHINE: Legends}|CC9944}",
+				"The grisly puppet of Tremulus, one of the iron liches of the Withershadow Combine, is an arcane focus through which the creature forced its victims to act according to its whims. The mad iron lich created several of these marionettes, fashioning a new one whenever it had grown bored with the old one, which it then discarded.",
+				"As a bonus action, one humanoid of your choice that you can see within range must succeed on a DC 16 Wisdom saving throw or be charmed by you for 1 minute. A charmed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. After you successfully charm a target with this item, you cannot use it again until the next midnight.",
+				"While a creature is charmed by you, you can use an action on each of your turns to manipulate the puppet. The charmed creature must attempt to replicate whatever you make the puppet do. You can perform the following tricks with the puppet.",
+				{
+					"type": "entries",
+					"name": "Slack Strings",
+					"entries": [
+						"You cause the puppet to fall to the ground. The target falls prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slapstick",
+					"entries": [
+						"You cause the puppet to perform a series of pratfalls and clumsy actions. The target has disadvantage on attack rolls until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quiver and Quake",
+					"entries": [
+						"You cause the puppet to tremble as if in fear. The target has disadvantage on Dexterity checks and Dexterity saving throws until the start of your next turn."
+					]
+				}
+			],
+			"uniqueId": "2b91d34dfa6504e201f5af9eb82cac65"
+		},
+		{
+			"name": "Witchfire",
+			"source": "IK:GT",
+			"page": "57",
+			"baseItem": "Greatsword|phb",
+			"rarity": "artifact",
+			"type": "M",
+			"weapon": true,
+			"reqAttune": true,
+			"entries": [
+				"{@color {@b First Appearance: The Witchfire Trilogy, Book 1: The Longest Night }|CC9944}",
+				"The blade known as the Witchfire is a powerful artifact forged and enchanted ages ago. The details of its construction are lost to antiquity, but rumors of its terrible abilities can be found in certain obscure and ancient texts. Some say its wielder can lead an army of the dead; others speak of its ability to capture the souls of its victims. There is truth to both rumors, and more besides.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, you have advantage on attack rolls made with this weapon against creatures with the Spellcasting class feature or the Innate Spellcasting special trait. When you hit such a creature with this weapon, that creature takes an extra 2d6 necrotic damage and must succeed on a DC 15 Wisdom saving throw or be stunned until the end of your next turn.",
+				{
+					"type": "entries",
+					"name": "Life Stealing",
+					"entries": [
+						"If you slay a spellcaster with this weapon, the victim’s soul is captured within the blade with no saving throw possible. Captured souls can be extracted only by advanced magical techniques. The Witchfire can hold a limitless number of souls.",
+						"If you are able to cast spells and capture the soul of a slain spellcaster with this weapon, you can choose to instantly learn any one spell the spellcaster knew. The chosen spell must be of a level for which you have spell slots but does not count against the total number of spells you know."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"The Witchfire itself is not sentient but contains the sentience of many individuals who were slain by it over the course of history. The voices of the spirits within the sword chatter constantly in your mind while you are attuned to it. This effect manifests itself once every 7 days. When it manifests, you must make a DC 18 Charisma saving throw. On a failed save, you do not benefit from completing a short or long rest for the next 24 hours due to the voices that plague your sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stir the Dead",
+					"entries": [
+						"Unless shielded by divine rituals or contained within one inch of metal, the Witchfire radiates powerful necromantic energy that automatically raises the remains of dead humanoids as risen thralls within an area equal to 100 feet × your proficiency bonus. While you are attuned to the Witchfire, these thralls are under your control. Once per day, you can raise a humanoid corpse as a thrall warrior instead of a risen thrall.",
+						"As a bonus action on each of your turns, you can mentally command any creature animated by the Witchfire if you are attuned to the weapon and wielding it and if the creature is within 120 feet of you. (If you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you do not issue any commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete."
+					]
+				}
+			],
+			"uniqueId": "46282681c2e85ae4d389b465eb2837cc"
+		}
+	],
+	"baseitem": [],
+	"variant": [],
+	"itemProperty": [{
+			"abbreviation": "AOE",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Area of Effect",
+				"entries": [
+					"This weapon's ammunition explodes when it hits a target and may hit nearby creatures standing as well. Each other creature within a number of feet equal to the AOE range (noted in parentheses) must make a Dexterity saving throw with a DC of 13 or 10 + the attacker's proficiency bonus, whichever is higher. On a failed save, the creature takes half of the damage taken by the target."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.aoerange}} ft.)",
+			"uniqueId": "fba9565b179d09f4648fb292618c7634"
+		},
+		{
+			"abbreviation": "Hidden",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Hidden",
+				"entries": [
+					"The true nature of this weapon is concealed until the wielder reveals it or a creature discovers it. A creature within 10 feet of the weapon can discern its true nature if the creature has a passive Wisdom (Perception) score of at least 20 or if the creature is actively looking for concealed weapons and succeeds on a DC 15 Wisdom (Perception) check. A creature that handles a weapon disguised to look like something else discovers the weapon's true nature if the creature has a passive Wisdom (Perception) score of at least 10 or automatically if the creature is actively looking for concealed weapons."
+				]
+			}],
+			"uniqueId": "a080768b270f5641cc140ae62e0889fa"
+		},
+		{
+			"abbreviation": "Firearm",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Firearm",
+				"entries": [
+					"You can use a weapon that has the firearm property to make a ranged attack, but only if ammunition is loaded into the weapon's magazine. Each time you attack with a firearm, you expend 1 round from the magazine. Rounds fired from a firearm are destroyed.",
+					"A firearm produces a loud report when fired. Unless affected by mechanikal or magical silence, creatures with the ability to hear can hear the sound of a firearm discharging from a great distance, sometimes up to a mile or more in open conditions. Pistols use light round. Rifles use heavy rounds. Some firearms have unique ammunition types."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.range}} ft.)",
+			"uniqueId": "5e8cffb05f861753fb4dfb0479683b3c"
+		},
+		{
+			"abbreviation": "Grenade",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Grenade",
+				"entries": [
+					"You must throw this weapon to make a ranged attack with it. Add your Dexterity modifier to the attack roll, but do not add it to the damage roll."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.range}} ft.)",
+			"uniqueId": "4d271d4ef4efe379eb130cc183b941fb"
+		},
+		{
+			"abbreviation": "Magazine",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Magazine",
+				"entries": [
+					"A weapon with the magazine property has an amount of ammunition stored inside it (noted in parentheses). Once you use the weapon to make a number of attacks equal to its magazine rating, you must use an action or a bonus action (your choice) in order to reload it."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.magazine}})",
+			"uniqueId": "999728f72c8ec1f8ca334fa77c742648"
+		},
+		{
+			"abbreviation": "AMagazine",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Alchemical Magazine",
+				"entries": [
+					"A weapon with the alchemical magazine property has an amount of ammunition stored inside it (noted in parentheses). Once you use the weapon to make a number of attacks equal to its magazine rating, you must use an action or a bonus action (your choice) in order to reload it."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.magazine}})",
+			"uniqueId": "665c754f50c6d417bb580e86aada5367"
+		},
+		{
+			"abbreviation": "Magelock",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "MageLock",
+				"entries": [
+					"A magelock weapon is specially hardened against the effects of a gun mage's rune shots. While in the hands of a gun mage, a magelock weapon is a magic weapon."
+				]
+			}],
+			"uniqueId": "73a8723a91c030e42581e656a55a7da5"
+		},
+		{
+			"abbreviation": "Misfire",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Misfire",
+				"entries": [
+					"If you roll equal to or lower than a weapon's misfire rating (noted in parentheses), the weapon jams as its ammunition fails. The attack automatically misses, and the weapon cannot be used again unless you use an action or a bonus action to clear the chamber and fix whatever caused the weapon to misfire."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.misfire}})",
+			"uniqueId": "3f14512063d9abd686e1b2e4ddc1e9af"
+		},
+		{
+			"abbreviation": "Rearm",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Rearm",
+				"entries": [
+					"You can use a weapon that has the rearm property to make a melee attack, but only if you have the expendable component the weapon uses. Each time you attack with the weapon, you expend this component. You must take a bonus action to draw the component from a bandolier or another container and attach it to the weapon.",
+					"If you use a weapon that has the rearm property to make a melee attack without replacing the expendable component, you treat the weapon as an improvised weapon."
+				]
+			}],
+			"uniqueId": "68101c1d67db62830e3ce176cc376f60"
+		},
+		{
+			"abbreviation": "Storm",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Storm",
+				"entries": [
+					"As a bonus action, you can activate or deactivate this weapon. While activated, this weapon deals 1d4 lightning damage in addition to its normal damage. Each time you make an attack with this weapon while it is activated, you suffer 1d4 lightning damage after resolving the attack. For more on this weapon, see \"Mechanika\" on p. 213."
+				]
+			}],
+			"uniqueId": "c9710e036f786170b06caa3be600c7f5"
+		},
+		{
+			"abbreviation": "StormGenerator",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Storm Generator",
+				"entries": [
+					"You can use this weapon to discharge lightning as a ranged attack rather than use it as a melee weapon, but only if the weapon is activated. If you do so, this weapon's damage changes to 1d8 lightning damage."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.range}} ft.)",
+			"uniqueId": "b844c1d91df654064a15d04889110cbb"
+		},
+		{
+			"abbreviation": "Volley",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Volley",
+				"entries": [
+					"You can use a weapon with the volley property to make an attack against a single target, or you can fire multiple shots into a 10-foot cube within the weapon's normal range, in which case each creature in the area must make a Dexterity saving throw with a DC equal to 8 + your attack modifier. On a failed save, the creature takes normal damage from the weapon. A volley cannot hit more targets than the number of pieces of ammunition in the weapon's magazine when it is fired."
+				]
+			}],
+			"uniqueId": "c523cb457a4e9b521219f5eae9b3e1a1"
+		},
+		{
+			"abbreviation": "LRounds",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Light Rounds",
+				"entries": [
+					"Light rounds are those with a circumference of less than half an inch—are used in most modern pistols and rifles."
+				]
+			}],
+			"uniqueId": "5aeeb85e4890699a0c30fdccfeb4fd4f"
+		},
+		{
+			"abbreviation": "HRounds",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Heavy Rounds",
+				"entries": [
+					"Heavy rounds are used in heavy rifles, hand cannons, and mounted antipersonnel weapons. With a circumference of over half an inch, a heavy round creates a tremendous amount of trauma as it travels through a target."
+				]
+			}],
+			"uniqueId": "030230d93a1c5bb03a731c9089b08ce6"
+		},
+		{
+			"abbreviation": "SRounds",
+			"source": "IK:GT",
+			"page": 192,
+			"entries": [{
+				"type": "entries",
+				"name": "Slug Rounds",
+				"entries": [
+					"Slug rounds are about fifty percent larger than heavy rounds and transfer an enormous amount of energy to a target upon impact."
+				]
+			}],
+			"uniqueId": "98fa3c97e19c3f907ebcf236e6a57dbe"
+		},
+		{
+			"abbreviation": "CRounds",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Cannon Rounds",
+				"entries": [
+					"Cannon rounds are about fifty percent larger than heavy rounds and transfer an enormous amount of energy to a target upon impact."
+				]
+			}],
+			"uniqueId": "99535227a69b955363fa376523317770"
+		},
+		{
+			"abbreviation": "RP",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Rune Points",
+				"entries": [
+					"Each mechanika rune has an associated rune point value that describes its complexity, as shown in the Mechanika Runes table. The more complex the rune, the higher its rune point value. Each runeplate can have up to five rune points. Rune points are also a measure of the amount of power output required from a device's capacitor to power its runeplate. Make sure that the power source can, in fact, power the plate. Few power sources can accommodate five points of power."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.runepoints}})",
+			"uniqueId": "94bd996bdb1cf91b79b57fea8af6479f"
+		},
+		{
+			"abbreviation": "RC",
+			"source": "IK:GT",
+			"page": 0,
+			"entries": [{
+				"type": "entries",
+				"name": "Rune Charges",
+				"entries": [
+					"Charges reflect the capacitor's storage capacity."
+				]
+			}],
+			"template": "{{prop_name}} ({{item.runecharges}})",
+			"uniqueId": "4d6ec1487296ca302fb0d3fd5cb7f530"
+		}
+	],
+	"itemType": [],
+	"itemFluff": [],
+	"itemGroup": [],
+	"itemEntry": [],
+	"psionic": [],
+	"reward": [],
+	"object": [],
+	"trap": [],
+	"hazard": [],
+	"variantrule": [],
+	"condition": [],
+	"disease": [],
+	"status": [],
+	"adventure": [],
+	"adventureData": [],
+	"book": [],
+	"bookData": [],
+	"table": [],
+	"tableGroup": [],
+	"vehicle": [],
+	"vehicleUpgrade": [],
+	"action": [],
+	"cult": [],
+	"boon": [],
+	"language": [{
+			"name": "Caspian Languages",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Base",
+			"script": "Caspian",
+			"entries": [
+				"Although Caspian itself is no longer a living language, it is the largest language family and therefore of great interest to scholars and theologians. It spread alongside both the Menite and Morrowan faiths before it changed and fragmented into distinct regional languages with some commonalities, such as a shared alphabet. Several languages descended from Caspian are still in common use, the most significant of which are described below. Numerous intermediary Caspian languages have existed throughout the ages. Most of them are of interest only to linguists, but some are still spoken in certain regions, although rarely as a primary tongue."
+			],
+			"uniqueId": "3a30e783252ac21b67ea87a090abc901"
+		},
+		{
+			"name": "Khurzic Languages",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Base",
+			"script": "Khurzic",
+			"typicalSpeakers": [
+				"Scholars of ancient history"
+			],
+			"entries": [
+				"Most Khurzic languages have begun to fall by the wayside in favor of modern Khadoran, which is spoken pervasively across the Khadoran Empire."
+			],
+			"uniqueId": "6c9a57c573d1d95f9801bcac25d304cd"
+		},
+		{
+			"name": "Molgur Languages",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Base",
+			"script": "Morridane",
+			"typicalSpeakers": [
+				"Scholars of ancient history"
+			],
+			"entries": [
+				"Molgur has given rise to a number of distinct languages that share many roots and elements. With a bit of exposure and familiarity, speakers of these languages can often make themselves understood to one another, although conveying complex ideas can be difficult. One of the most distinct dialects is that used by the Tharn, who have their own words and phrases but whose language is otherwise quite similar to ancient Molgur."
+			],
+			"uniqueId": "c340f6789012746d71fe2e83f0d0ac00"
+		},
+		{
+			"name": "Morridane Languages",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Base",
+			"script": "Morridane",
+			"typicalSpeakers": [
+				"Scholars of ancient history"
+			],
+			"entries": [
+				"The most obscure and least widespread of the human language families, the Morridane languages are in serious decline. Morridane had a distinct alphabet in ancient times, but the only two living tongues in this family abandoned it long ago."
+			],
+			"uniqueId": "14191f2edba790f1a10e7f6aa6f7600e"
+		},
+		{
+			"name": "Aeric",
+			"source": "IK:GT",
+			"type": "Obscure",
+			"script": "Aeric",
+			"typicalSpeakers": [
+				"Winter elven tribes"
+			],
+			"entries": [
+				"Aeric, the language of the Nyss, is related to Shyr but diverged considerably after the Nyss left Ios and settled in northern Khador. Its written form, which bears no similarities to Shyr's, is closely connected with the Nyss religion and is learned almost exclusively by priests and sorcerers."
+			],
+			"uniqueId": "b35b273bac7533cd73e812b10474463e"
+		},
+		{
+			"name": "Caspian",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Extinct",
+			"script": "Caspian",
+			"typicalSpeakers": [
+				"Scholars of ancient history"
+			],
+			"entries": [
+				"The dead language of Caspian is a descendant of several ancient languages of the first major Menite communities in western Immoren, including the language used in Ancient Icthier. The first written documents, such as the text of the True Law, were inscribed in a tongue that predates Calacian, which was the immediate precursor of Caspian. The Caspian language reached its height during the Thousand Cities Era and quickly became the language of educated discourse. Most ancient Morrowan and Menite texts in the south were written in Caspian, with the most modern and internally consistent version being set down by Ascendant Angellia when she presented the definitive translation of the Enkheiridion."
+			],
+			"uniqueId": "d62993125f8ba02c4cb99a44ee376bd1"
+		},
+		{
+			"name": "Cygnaran",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Living",
+			"typicalSpeakers": [
+				"Humans of Cygnar & trade lanuage of all the Iron Kingdoms"
+			],
+			"dialects": [
+				"Swampie",
+				"Sulese",
+				"Five Cant",
+				"Scharde Tongue"
+			],
+			"script": "Caspian",
+			"entries": [
+				"{@bold Dialects} Swampie, Sulese, Five Cant, Scharde Tongue",
+				"The most direct descendant of Caspian, Cygnaran is the dominant language of the southern Iron Kingdoms, having been widely adopted by the people of the Midlunds and Caspia itself. It is used throughout the region as a trade language and is the national language of both Cygnar and the Protectorate of Menoth, although the latter refers to the language as Sulese. This rich language includes a number of words borrowed from the Orgoth tongue that came into use during the Occupation, as well as many commonly used trade terms for alchemy, engineering, and the arcane.",
+				"Perhaps unsurprisingly for a language spoken across such a broad geographical area, Cygnaran has numerous dialects. Sulese is easily understood by any Cygnaran speaker, but it has adopted a number of Idrian terms and phrases and includes distinct religious terms. The river folk and swamp denizens of the northern stretches of the Black River are infamous for their “Swampie” language, a dialect that includes many Morridane terms and is thus difficult for the uninitiated to understand. The Arjun people of Thuria employ a similarly dense dialect that mixes Thurian with Cygnaran"
+			],
+			"uniqueId": "2e305c07fa28b188dab039d191f2a07b"
+		},
+		{
+			"name": "Five Cant",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Secret",
+			"script": "None",
+			"typicalSpeakers": [
+				"Streets of Five Fingers, Criminals & Outlaws"
+			],
+			"entries": [
+				"The so-called \"Five Cant\" is an artificial dialect of Thurian blending Tordoran, Cygnaran, and Caspian. This intentionally confusing dialect is used extensively by the criminals in Five Fingers, its port of origin. The speed at which it is spoken is matched only by the quickness with which it has spread to criminal circles in other cities."
+			],
+			"uniqueId": "05dcb6dc6c788e93a1cbca5adc08cd4e"
+		},
+		{
+			"name": "Gobberish",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "None",
+			"typicalSpeakers": [
+				"{@race Gobber|IK:R}"
+			],
+			"entries": [
+				"Gobberish is the language of western Immoren's numerous gobbers. Although some linguists refuse to consider it a distinct language, it is arguably as divergent from the original Molgur as Molgur-Trul and is similarly difficult for outsiders to comprehend.",
+				"Gobberish is less cohesive and consistent than the other Molgur tongues, frequently becoming an amalgam that incorporates local human tongues. Unsurprisingly, the most broadly spoken dialect includes many Cygnaran terms. Since most southern gobbers can also speak Cygnaran, they sometimes seem to employ Gobberish just to confuse humans who annoy them. They also use it to speak privately to one another, often speaking particularly quickly to further confuse outsiders."
+			],
+			"uniqueId": "9908663355a420edaec65cedd13e9195"
+		},
+		{
+			"name": "Grun",
+			"source": "IK:GT",
+			"type": "Guttural",
+			"script": "Caspian",
+			"typicalSpeakers": [
+				"Farrow"
+			],
+			"entries": [
+				"An odd derivative of Caspian, the farrow language is part pidgin Caspian, part porcine squeals and grunts. Surprisingly, the bestial farrow have a simple written version of their language that uses the Caspian alphabet."
+			],
+			"uniqueId": "24197be7761ba93417c11121eaff23fd"
+		},
+		{
+			"name": "Idrian",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Obscure",
+			"script": "Idrian",
+			"typicalSpeakers": [
+				"Humans nomads on fringes of the Protectorate"
+			],
+			"entries": [
+				"Idrian is on the decline but is still spoken among the remaining tribal nomads living on the fringes of the Protectorate of Menoth and elsewhere across the Bloodstone Marches. The majority of Idrians who converted to the Menite faith a century ago switched to speaking Sulese, and their descendants have spoken it ever since.",
+				"Idrian is classified as a Morridane language even though it was heavily influenced by other tongues spoken in this eastern region. In ancient times, a number of Idrian tribes were conquered by Morrdh. This had a tremendous impact on their language, which ended up incorporating many Molgur terms. Although written Idrian once had its own alphabet, it has been largely forgotten, and most of those who speak this tongue cannot read or write Idrian in its original letters. Those Idrians who converted to the worship of the Creator but who still speak Idrian use the Caspian alphabet to write it; other tribes have taken up the Molgur alphabet instead."
+			],
+			"uniqueId": "27c4f4cc9f784d2885fd8e6d735203dd"
+		},
+		{
+			"name": "Khadoran",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "Khadoran",
+			"typicalSpeakers": [
+				"Humans of Khador"
+			],
+			"entries": [
+				"The language of the Khadoran Empire is the enduring language of the north and has been learned by many who live in the regions bordering its expanding territories. Over the generations, Khadoran has steadily swallowed up rival languages in the north, incorporating a variety of words and phrases from the other Khurzic tongues. Khadoran includes a number of Orgoth-derived terms, as well as some taken from Molgur. Despite regional accents and colloquialisms, Khadoran speakers can communicate easily with one another even though literacy rates among rural Khadorans lag behind those of similar people in other kingdoms."
+			],
+			"uniqueId": "f72520d75d5b1c07b353b95acbb63c0f"
+		},
+		{
+			"name": "Khurzic",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Extinct",
+			"script": "Khurzic",
+			"typicalSpeakers": [
+				"Scholars of ancient history"
+			],
+			"entries": [
+				"The roots of the Khurzic languages stretch back to prehistory in the north, making them difficult to trace. Several of these tongues are believed to have been brought to this area by pilgrims who traveled there in around 5500 BR as part of an exodus designed to spread Menite teachings into the northlands. Led by the warrior Belcor and the sage-priest Geth, these disciples sought to translate the True Law into local tongues and preserve these scriptures in writing.",
+				"Khurzic uses a distinct alphabet likely derived from the pre-Caspian alphabet once used in Icthier. Like Caspian, Khurzic is no longer spoken but is studied by scholars of ancient history. Most Khurzic languages have begun to fall by the wayside in favor of modern Khadoran, which is spoken pervasively across the Khadoran Empire."
+			],
+			"uniqueId": "b3a879658aad9257dc53a926e80d0a7f"
+		},
+		{
+			"name": "Kossite",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Obscure",
+			"script": "Kossite",
+			"typicalSpeakers": [
+				"Remote forest communities and certain Kossite families"
+			],
+			"entries": [
+				"Kossite is now seldom used, perhaps due to its scarcity of written literature. The Kossite people have been largely illiterate for most of their history, even after many tribes converted to Menoth. The language is still used in some remote forest communities and among certain families, but Khadoran has nearly swept it aside."
+			],
+			"uniqueId": "6806867faec82d97d87ab0f0cd6233c1"
+		},
+		{
+			"name": "Llaelese",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Living",
+			"script": "Caspian",
+			"typicalSpeakers": [
+				"Humans of Llael"
+			],
+			"entries": [
+				"Llaelese is a direct evolution of the Ryn language of Rynyr and has changed very little since the centuries before the Orgoth Occupation. Even though most Llaelese speak Cygnaran in addition to Llaelese, they have always considered the latter an essential element of their culture. As a result of Llael's recently ended occupation by Khador, many of its citizens now speak Khadoran as well."
+			],
+			"uniqueId": "4c7c96faef5083518ff9520cfb579dc2"
+		},
+		{
+			"name": "Molgur",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "Molgur",
+			"typicalSpeakers": [
+				"Chaotic-aligned human barbarian tribes, trolls, ogres, gobbers"
+			],
+			"entries": [
+				"The oldest living tongue, Molgur originally spread across western Immoren as a result of the dominance of that tribal people before the Warlord Era. Although this language was once pervasive among worshippers of the Devourer Wurm, its use is now confined to fringe settlements and dialects adopted by Dhunian races. Due to its association with the Wurm, it is sometimes referred to as the \"Berserker's tongue.\""
+			],
+			"uniqueId": "8dd741af2b532d986a46467970831082"
+		},
+		{
+			"name": "Molgur-Og",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "None",
+			"typicalSpeakers": [
+				"Rhulic ogrun"
+			],
+			"entries": [
+				"Molgur-Og was once widely popular among western Immoren's ogrun. These people added their own words to it over generations, including a great number of curses and swears. No written form of the language is known to exist. In recent years, use of Molgur-Og has declined among ogrun overall, but especially for those who live in Rhul. Most Rhulic ogrun communicate in Rhulic and typically restrict their use of Molgur-Og to Dhunian services and family matters."
+			],
+			"uniqueId": "fdb03d86b611248198148014137be013"
+		},
+		{
+			"name": "Molgur-Trul",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "Molgur-Trul",
+			"typicalSpeakers": [
+				"Trollkin throughtout western Immoren"
+			],
+			"entries": [
+				"Molgur-Trul is the most widely used Molgur tongue and is spoken by trollkin throughout western Immoren. It has diverged more dramatically from its linguistic roots than other Molgur languages and has become the most versatile offshoot of its mother tongue.",
+				"Trollkin possess a rich tradition of runic carving, and their written language is as malleable and expressive as their spoken one. This language has spread to other troll species, including full-blood trolls, pygmy trolls, and dire trolls, although their vocabularies and sentence construction are much more limited"
+			],
+			"uniqueId": "8e2f3c11994c1392326c15ff5d369987"
+		},
+		{
+			"name": "Morridane",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Extinct",
+			"script": "Morridane",
+			"typicalSpeakers": [
+				"Scholars of ancient history"
+			],
+			"entries": [
+				"The language of the people of Morrdh, Morridane is one of the more confusing ancient tongues. This difficulty has made it the subject of far less scholarly study than Caspian, at least among those who are not occultists. Morridane and Caspian are distantly related, both having diverged from one of the tongues of Icthier after the Time of the Burning Sky. Morridane's original alphabet shares only a few symbols with modern Caspian's."
+			],
+			"uniqueId": "65bcf6a728123fc11fa43bb7934be8a2"
+		},
+		{
+			"name": "Ordic",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Living",
+			"script": "Caspian",
+			"typicalSpeakers": [
+				"Humans of Ord"
+			],
+			"entries": [
+				"The modern descendant of Tordoran, Ordic is the most widely spoken language of the Ordic people, many of whom are multilingual. The Ordic lexicon includes many Thurian words, as well as a number of Orgoth terms. Numerous words have been borrowed from a variety of languages, likely as a result of Ord's status as a melting pot filled with seafaring people of all cultures. Ordic is notable as the source of many widely accepted nautical terms, which are familiar to sailors of all nations.",
+				"High Tordoris is an Ordic dialect spoken by some of the castellans of Ord. An extension of the original Tordoran language, High Tordoris eschews words borrowed from Thurian. It employs many compound words to express concepts that are simpler in the prescriptive Ordic language, but it is seen by some as a “purer” language suited for artful speaking."
+			],
+			"uniqueId": "1b401c3d6223b7bc590caf56ff154818"
+		},
+		{
+			"name": "Rhulic",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Living",
+			"script": "Rhulic & Rhul-Runic",
+			"typicalSpeakers": [
+				"Dwarves of Rhul"
+			],
+			"entries": [
+				"All dwarves and most northern ogrun speak Rhulic, a language that is not generally well known outside of Rhul. Although some human scholars—particularly those who live in communities with dwarven enclaves—have undertaken its study, dwarves who trade regularly with humans prefer to speak in Cygnaran or Khadoran. Written Rhulic is a complex language consisting of numerous runic combinations of geometric shapes, and its alphabet uses a distinct variant for written correspondence that differs from the angular variant used for inscribing text in stone or metal. Most ogrun who live in Rhul can speak Rhulic fluently, and some can even read and write it as a second language, which is useful whenever they must help Rhulic mercenary companies manage their copious records.",
+				"Rhulic contains a variety of minor dialects, with the most distinct used among clans who associate least frequently with outsiders. The miners of Ulgar have a distinct dialect, for example, as do the dwarves of the remote eastern settlement of Farhallow. Miner Rhulic is another dialect, favored in Rhulic communities outside the borders of Rhul. It is a simplified version of the language that employs many loanwords from Cygnaran and Khadoran, especially the more colorful swears and colloquialisms."
+			],
+			"uniqueId": "cf57f59a1c9f6a4ce23e188314ff7db3"
+		},
+		{
+			"name": "Satyxi",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Obscure",
+			"script": "Satyx",
+			"typicalSpeakers": [
+				"Satyxis"
+			],
+			"entries": [
+				"The language of the Satyxis has a fluid, flowing sound. Despite sharing some interesting commonalities with Caspian, Satyxi uses its own alphabet, which is also known as Satyxi."
+			],
+			"uniqueId": "4080b6f35e605b5e2668b85de0833ed4"
+		},
+		{
+			"name": "Scharde",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Obscure",
+			"script": "None",
+			"typicalSpeakers": [
+				"Throughout the Broken Coast and among the denizens of Cryx"
+			],
+			"entries": [
+				"Many scholars have debated whether the Scharde tongue spoken throughout the Broken Coast and among the denizens of Cryx should be considered its own language or classified as a Cygnaran dialect instead. Because the Nightmare Empire has absorbed people from every mainland kingdom, its language includes words borrowed from Molgur, Morridane, Ordic, Llaelese, and Khadoran. Many traders and sailors of the Broken Coast become passably familiar with Scharde Tongue, if only to make it easier to negotiate with potential captors."
+			],
+			"uniqueId": "df033da17405ce7553746ec34b2438b7"
+		},
+		{
+			"name": "Shyr",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Living",
+			"script": "Shyric",
+			"typicalSpeakers": [
+				"Elves of Ios"
+			],
+			"entries": [
+				"The Iosans speak a language called Shyr, whose name is similar to that of the Iosan capital. This ancient language is extremely complex and features rigid rules of syntax and grammar entirely dissimilar from those of human and dwarven tongues. Written Shyr is not phonetic and uses thousands of intricate glyphs. Shyr is almost never heard outside of Ios, and because the Iosans guard their language as tightly as they do all their secrets, only a handful of scholars outside Ios are familiar with its written form.",
+				"Distinct dialectical differences exist not only among those who live in Shyrr, Iryss, and Lynshynal, but also among those who live in some of Ios' outlying fortifications. Additionally, numerous elven houses have developed terms specific to their use, although these do not generally present a barrier to communication. Members of the Retribution of Scyrah have created an extensive system of gestures that are used in place of spoken language for certain tasks."
+			],
+			"uniqueId": "8c50241d6c6694ae972e5781fd9230a9"
+		},
+		{
+			"name": "Sulese",
+			"source": "IK:GT",
+			"page": "36",
+			"type": "Living",
+			"script": "Cygnaran",
+			"typicalSpeakers": [
+				"Elves of Ios"
+			],
+			"entries": [
+				"Sulese is easily understood by any Cygnaran speaker but has adopted a number of Idrian terms and phrases and includes distinct religious terms."
+			],
+			"uniqueId": "ab3ffb4ab352270cd0f86310e69ac70d"
+		},
+		{
+			"name": "Thrallspeak",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Obscure",
+			"script": "None",
+			"typicalSpeakers": [
+				"Advanced undead"
+			],
+			"entries": [
+				"Thrallspeak is the language advanced thralls use to issue orders to lesser beings of their kind. This harsh, grating speech is almost impossible for a human to mimic, much less learn, but all thralls seem to understand it innately when they are created. No written form of this language is known to exist."
+			],
+			"uniqueId": "c609314a8697666ba2f156c985bb7523"
+		},
+		{
+			"name": "Thurian",
+			"source": "IK:GT",
+			"page": "38",
+			"type": "Living",
+			"script": "Caspian",
+			"typicalSpeakers": [
+				"Thurians"
+			],
+			"entries": [
+				"Thurian is the most widely spoken of the Morridane languages. Although Thurians do not consider themselves descendants of Morrdh, their kingdom had both regular contact and periodic wars with the dark kingdom and eventually adopted a variant of Morridane mixed with tongues local to the coasts and bogs of the Thurian region. Due to the descendants' pride in their ancient roots, the use of Thurian has persisted in Ord and northwestern Cygnar for centuries.",
+				"Having evolved considerably away from its Morridane roots, however, Thurian has become one of the most distinct of western Immoren's living tongues. Its unique nature has made it difficult for outsiders to learn, although most Ordsmen know some Thurian as a matter of course. It is considered a “low” language in Ord compared to Ordic or Tordoran, which is a matter of dispute between Thurians and Tordorans. By contrast, Thurian literature is quite popular among the nobles of northwestern Cygnar, where the tongue has a more romantic connotation, and modern Thurian uses the Caspian alphabet."
+			],
+			"uniqueId": "a6cfa03654090d436b9090069f312ad5"
+		},
+		{
+			"name": "Umbrean",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "Khadoran",
+			"typicalSpeakers": [
+				"Umbreans"
+			],
+			"entries": [
+				"Umbrean is distinct from Khadoran but bears strong similarities to it; the two languages share both a structure and an alphabet and contain many similar words. Umbrean has been preserved by the people of eastern Khador and those of western Llael and is still spoken both in homes and among other Umbreans. Distinct Umbrean translations of the True Law differ in small but noteworthy ways from their Khadoran counterparts. This language has persisted despite the prevalence of Khadoran, although most Umbreans speak both languages, and many also speak Llaelese, Ordic, or Cygnaran."
+			],
+			"uniqueId": "2fd4c9f6bd9108ee97881ddc09a32c6c"
+		},
+		{
+			"name": "Urnyak",
+			"source": "IK:GT",
+			"page": "37",
+			"type": "Living",
+			"script": "Molgur",
+			"typicalSpeakers": [
+				"Skirov"
+			],
+			"entries": [
+				"Still spoken by many Skirov, Urnyak is a unique dialect of Molgur. It overlaps somewhat with Molgur-Og, likely due to the proximity of the Skirov to the mountains the ogrun call home."
+			],
+			"uniqueId": "0c9d8e4f4eea4ef6e4ffb9f3628e6e63"
+		},
+		{
+			"name": "Dreggi",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Living",
+			"script": "Unknown",
+			"typicalSpeakers": [
+				"Dregg"
+			],
+			"entries": [
+				"The horrid speech of the dregg consists mainly of strange sucking and clicking noises made with the tongue in the back of the throat, occasionally punctuated by odd chortles and sibilant hisses. Although a human might be able to learn this speech, the horrors that would have to be endured during this study would drive even the sanest student over the brink. No one outside the dregg knows whether a written form of Dreggi exists."
+			],
+			"uniqueId": "8b58b9371452e6352e101c89fab49e44"
+		},
+		{
+			"name": "Nokiri",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Obscure",
+			"script": "Glyphs",
+			"typicalSpeakers": [
+				"Infernalists"
+			],
+			"entries": [
+				"Nokiri has been studied extensively by infernalists and exhaustively documented by members of the Infernal Archive cabal of the Order of Wizardry. Some believe this language is unique to the members of the Nonokrion Order, but the written glyphs the order employs are not exclusive to it, indicating that Nokiri may merely be a dialect of a wider infernal language. Nokiri is not exceptionally difficult to learn, but its obscurity makes having a decent collection of infernal lore on hand a requirement to even begin studying it."
+			],
+			"uniqueId": "4c5271402814e731d238d1a4a2e0b969"
+		},
+		{
+			"name": "Quor",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Living",
+			"script": "None",
+			"typicalSpeakers": [
+				"Bog Trogs and Gatormen"
+			],
+			"entries": [
+				"{@bold Dialects} Quor-Og, Quor-Gar",
+				"Bog trogs and gatormen speak dialects of the odd language known as Quor. These dialects—Quor-Og and Quor-Gar, respectively—are similar enough that the two races can communicate with little trouble. Interestingly, although both dialects are obviously derived from Quor, the mother tongue appears to be a dead language, and no written form of it exists."
+			],
+			"uniqueId": "edf8ef05ed06bfc03c6afaac4fcbc035"
+		},
+		{
+			"name": "Saelaan",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Obscure",
+			"script": "Incomprehensible glyph-like symbols",
+			"entries": [
+				"What little is known about the obscure language of the grymkin is based primarily on the odd utterances made by captured members of the race; aside from the knowledge of its existence, Saelaan is completely unknown to outsiders. A written form of this language, composed of nearly incomprehensible glyph-like symbols, apparently exists, scholars can do little more than guess at whatever information it might convey. Saelaan is believed to be derived from the Pre-Calacian language shared by the Defiers, albeit corrupted into its current form during millennia of madness spent in Urcaen."
+			],
+			"uniqueId": "5044d300b0ea3a5d714462cbd3343000"
+		},
+		{
+			"name": "Thran",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Living",
+			"script": "None",
+			"entries": [
+				"An almost unrecognizable blending of Khurzic and Molgur, the guttural language known as Tharn is full of hard consonants and a few sparsely used vowels. The Tharn themselves do not appear to have a written form of their language; instead, their strong oral traditions help them maintain their tribal lore and family histories."
+			],
+			"uniqueId": "5f38c7d56fcc0ecd46ea8e9144ba7081"
+		},
+		{
+			"name": "Tkra",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Obscure",
+			"script": "None",
+			"entries": [
+				"Tkra is the language of dragons. It is most notably spoken by Lord Toruk and his top servitors and priests in Cryx. The Dragonfather's progeny also speak Tkra, which is all but unknown to outsiders."
+			],
+			"uniqueId": "7055916813f3293872399046f0425118"
+		},
+		{
+			"name": "Zunus",
+			"source": "IK:GT",
+			"page": "39",
+			"type": "Obscure",
+			"script": "Pictographs",
+			"entries": [
+				"This odd language was brought back from the continent of Zu by the renowned Captain Wexbourne. The written form of Zunus makes use of a large number of highly ornate pictographs and requires a considerable amount time and effort to learn."
+			],
+			"uniqueId": "66c9b8e236742591295a2e8d8520107e"
+		}
+	],
+	"languageScript": [],
+	"makebrewCreatureTrait": [],
+	"charoption": [],
+	"charoptionFluff": [],
+	"recipe": []
+}
